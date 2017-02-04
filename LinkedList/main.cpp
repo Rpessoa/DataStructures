@@ -40,7 +40,7 @@ void addNode(int n, Node *body) {
 
 //display a list of all existing nodes
 void display(Node *body) {
-    Node * list = body;
+    Node *list = body;
     while(list) {
         cout << list->data << " ";
         list = list->next;
